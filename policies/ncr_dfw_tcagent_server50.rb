@@ -6,5 +6,7 @@ cookbook 'ncr_dfw_tcagent_build'
 
 run_list %w(
   ncr_dfw_tcagent_build::default
+  ncr_dfw_tcagent_build::vs2012
+  ncr_dfw_tcagent_build::vs2019
   ncr_dfw_tcagent_build::alohapos
 )
